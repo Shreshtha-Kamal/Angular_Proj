@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 6,
+      "roll_No": "23",
+      "name": "Vagisha Singh",
+      "score": 454,
+      "dob": "2000-09-21"
+    },
+    {
+      "id": 7,
+      "roll_No": "24",
+      "name": "Shreshtha",
+      "score": "383",
+      "dob": "2000-04-17"
+    },
+    {
+      "id": 8,
+      "roll_No": "65",
+      "name": "Shreyash Jaiswal",
+      "score": "417",
+      "dob": "2004-04-01"
+    },
+    {
+      "id": 9,
+      "roll_No": 77,
+      "name": "Shivam",
+      "score": 373,
+      "dob": "1999-12-19"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

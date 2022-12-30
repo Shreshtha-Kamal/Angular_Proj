@@ -1,0 +1,12 @@
+.container-fluid{
+    font-weight: bold;
+    background-color: rgb(31, 53, 40);
+    font-size: 30px;
+    height: 70px;
+}
+.text-center{
+    padding-top: 15px;
+}
+#nav_Head{
+    color: aliceblue;
+}

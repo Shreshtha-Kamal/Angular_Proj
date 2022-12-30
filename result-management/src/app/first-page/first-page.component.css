@@ -1,0 +1,14 @@
+.container-fluid
+{
+    text-align: center;
+    margin: 0;
+  position: absolute;
+  top: 30%;
+}
+.container h5{
+    margin-bottom: 15px;
+}
+#btn{
+  color: white;
+  text-decoration-line: none;
+}

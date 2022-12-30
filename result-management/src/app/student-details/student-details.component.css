@@ -1,0 +1,12 @@
+#addRecord{
+    text-align: right;
+    margin-top: 5px;
+}
+.table{
+    margin-top: 20px;
+}
+#tableborder{
+    margin-top: 20px;
+    width: 87%;
+    border: 1.5px solid black;
+}

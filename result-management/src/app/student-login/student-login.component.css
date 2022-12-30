@@ -1,0 +1,16 @@
+.mb-3{
+    width: 400px;
+}
+.container
+{ 
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    margin-left: 430px;
+}
+.form-label{
+    font-weight: bold;
+}
+.container-fluid{
+    margin-top: 2px;
+}

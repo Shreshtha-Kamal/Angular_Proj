@@ -1,0 +1,19 @@
+<div class="container">
+    <form  class="clearform"  [formGroup]="view"  (ngSubmit)="search()" method="POST">
+        <div class="mb-3">
+          <label for="text" class="form-label" for="roll_No">Roll No</label>
+          <input class="form-control" type="text" formControlName="roll_No" name="roll_No" required>
+          <span class="text-danger" *ngIf= "view.controls['roll_No'].dirty && view.hasError('requried','roll_No')" >*Roll No is Requried</span>
+          
+        </div>
+        <div class="mb-3">
+          <label for="date" class="form-label">DOB</label>
+          <input type="date" class="form-control" name="dob"formControlName="dob" id="text"  placeholder="Enter your date-of-birth">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="reset"  class="btn btn-primary mx-3">Clear</button>
+      </form>
+</div>
+<div class="container-fluid">
+  <button type="submit" class="btn btn-dark" routerLink="/">Back</button>
+</div>

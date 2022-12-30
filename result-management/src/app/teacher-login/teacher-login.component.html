@@ -1,0 +1,13 @@
+
+<div class="container">
+<form class="form" (submit)="onLogin($event)" name="loginForm">
+    <div class="mb-2">
+      <label for="exampleInputPassword1" class="form-label">Enter your password</label>
+      <input type="password" class="form-control" id="password" formControlName="password" placeholder="Enter your password">
+    </div>
+    <button type="submit" class="btn btn-primary" id="btn">Submit</button>
+  </form>
+</div>
+<div class="container-fluid">
+    <button type="submit" class="btn btn-dark" routerLink="/">Back</button>
+</div>
